@@ -1,0 +1,15 @@
+{
+ "info_share": "three quarters",
+ "info_share_pct": "75",
+ "abs_P_zone": "18",
+ "abs_PA_zone": "22",
+ "pct_unresolved": "0.06",
+ "n_guard_cases": "72",
+ "n_guard_trials": "4,030",
+ "step4_of_adv:base|N": "97",
+ "step3:base|N": "1",
+ "step4_of_adv:base|P": "96",
+ "step3:base|P": "1",
+ "step4_of_adv:base|PA": "90",
+ "step3:base|PA": "1"
+}

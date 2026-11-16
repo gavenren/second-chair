@@ -1,0 +1,319 @@
+# Dispute bases. One block per base. Fields:
+#   == id | domain | amount in dispute (dollars)
+#   A: name | role noun | how B refers to A      (A is the party the disputed money would go to)
+#   B: name | role noun | how A refers to B
+#   STAKE: what the disputed amount is
+#   BG: agreed background.  A1,A2: facts that help A.  B1,B2: facts that help B.
+#   DA / DB / DM: the decisive fact in the A-favoured, B-favoured and mixed versions.
+
+== deposit | landlord-tenant | 1800
+A: Sam | the tenant | my former tenant
+B: Lee | the landlord | my former landlord
+STAKE: the security deposit that Lee is holding
+BG: Sam rented a one-bedroom flat from Lee for two years and moved out on 31 August. Lee is holding the $1,800 security deposit and has told Sam that all of it will be kept to pay for repainting and a replacement carpet in the living room. Sam wants the whole deposit back.
+A1: The carpet was already eight years old when Sam moved in.
+A2: Sam had the flat professionally cleaned before leaving and has the receipt.
+B1: Several red wine stains appeared on the living room carpet during Sam's tenancy.
+B2: Sam mounted a television on the wall without asking and left six large anchor holes.
+DA: The move-in inspection report, signed by both of them, already describes the carpet as stained and worn and the walls as scuffed.
+DB: The move-in inspection report, signed by both of them, describes the carpet and walls as being in good condition, and Lee has an invoice for $1,950 for the repainting and the new carpet.
+DM: Neither of them can find a move-in inspection report, and each remembers the starting condition of the flat differently.
+
+== heating | landlord-tenant | 1200
+A: Morgan | the landlord | my landlord
+B: Riley | the tenant | my tenant
+STAKE: the February rent that Riley held back
+BG: Riley rents a house from Morgan for $1,600 a month. The central heating failed for part of last winter. Riley paid only $400 of the February rent, holding back $1,200, and says this is fair compensation. Morgan wants the $1,200 paid.
+A1: Once a technician visited, the fault was diagnosed the same day, and the rest of the delay was caused by a part on back order.
+A2: Morgan lent Riley two electric heaters at no charge while the repair was pending.
+B1: The house was without working central heating for five weeks in January and February.
+B2: Riley's electricity bill for that period was about $260 higher than usual because of the electric heaters.
+DA: Morgan sent the technician within two days of Riley's first report, and the lease says that rent may not be withheld or reduced without written agreement.
+DB: Riley reported the fault in writing three times over two weeks before Morgan sent anyone, and a city inspector later gave Morgan a written notice that the house fell below the minimum heating standard.
+DM: Riley first raised the fault in a phone call; they disagree about the date of that call and about how long Morgan took to respond.
+
+== leasebreak | landlord-tenant | 4400
+A: Casey | the landlord | my former landlord
+B: Jordan | the tenant | my former tenant
+STAKE: the four months of rent that Casey is asking for
+BG: Jordan signed a twelve-month lease on a flat owned by Casey at $1,100 a month and moved out after eight months to take a job in another city. Casey is asking Jordan to pay the remaining four months, $4,400. Jordan has refused to pay any of it.
+A1: The lease runs for a fixed twelve months and has no early termination clause.
+A2: Casey paid $300 to advertise the flat again.
+B1: Jordan gave Casey sixty days of written notice before leaving.
+B2: Jordan left the flat clean and offered to help show it to prospective tenants.
+DA: The flat stayed empty for the whole four months, although Casey advertised it at the same rent on three listing sites from the week Jordan gave notice.
+DB: A new tenant moved in two weeks after Jordan left and pays $1,150 a month.
+DM: The flat was let again after about two months; Jordan says Casey was slow to advertise it and Casey says the market was quiet.
+
+== bedbugs | landlord-tenant | 950
+A: Avery | the tenant | my tenant
+B: Quinn | the landlord | my landlord
+STAKE: the pest treatment cost that Avery wants reimbursed
+BG: Avery rents a flat in a six-unit building owned by Quinn. Avery found bedbugs in the bedroom, paid a pest control company $950 for treatment, and has asked Quinn to reimburse the cost. Quinn has refused.
+A1: Avery reported the problem to Quinn by email on the day it was found and waited ten days without a reply before hiring the company.
+A2: The lease says the landlord is responsible for pest control in the building.
+B1: Quinn has a contract with a pest control firm that would have treated the flat for $400.
+B2: Avery brought a second-hand upholstered armchair into the flat a month before the bedbugs appeared.
+DA: Two other tenants in the building had reported bedbugs to Quinn in the two months before Avery did.
+DB: The pest control report says the infestation was confined to the second-hand armchair and the area around it, and no other unit in the building has had bedbugs.
+DM: The pest control report does not say where the infestation started, and one neighbouring tenant thinks they may have seen a bedbug last year but never reported it.
+
+== overtime | employment | 3200
+A: Jamie | the former employee | my former employee
+B: Drew | the former employer | my former employer
+STAKE: the overtime pay that Jamie is claiming
+BG: Jamie worked for eighteen months as a kitchen supervisor at a small catering company owned by Drew and resigned in June. Jamie says the company owes $3,200 for unpaid overtime worked at weekend events during the last six months. Drew says nothing is owed.
+A1: Event schedules show that Jamie was rostered on 22 weekend events during those six months.
+A2: Two former colleagues are willing to say that supervisors regularly stayed late after events to clean up.
+B1: Jamie's contract describes the role as salaried, with occasional weekend work included.
+B2: Jamie never raised overtime pay in writing while employed.
+DA: Jamie has a text message from Drew saying that extra weekend hours would be paid at time and a half once the busy season was over, and a personal log of hours that matches the event schedules.
+DB: Jamie signed a timesheet every month confirming the hours worked, none of the timesheets shows hours beyond the contracted ones, and Jamie took nine paid days off in lieu during the same period.
+DM: Jamie kept a personal log of extra hours but never showed it to anyone at the time; Drew remembers saying something about making it up to the team, but not what was meant.
+
+== bonus | employment | 6000
+A: Reese | the former employer | my former employer
+B: Skyler | the former employee | my former employee
+STAKE: the signing bonus that Reese wants repaid
+BG: Skyler joined a small software firm owned by Reese as a developer and received a $6,000 signing bonus. Skyler resigned after ten months. Reese is asking Skyler to repay the $6,000. Skyler has refused.
+A1: The offer letter says the signing bonus is repayable in full if the employee leaves within twelve months.
+A2: Reese paid a recruiter $9,000 to fill the role.
+B1: After five months Skyler's work was changed from software development to customer support.
+B2: Skyler worked the full notice period and trained a replacement.
+DA: Skyler resigned to take a better-paid job at a competitor, and on the first day had signed a separate one-page repayment agreement restating the twelve-month condition.
+DB: Skyler resigned after the firm cut every salary by 20 percent and moved the office to a city three hours away, and the offer letter says the bonus need not be repaid if the firm materially changes the terms of employment.
+DM: Skyler resigned shortly after being told the work would stay in customer support; they disagree about whether that made it a different job from the one that was offered.
+
+== commission | employment | 8500
+A: Rowan | the former employee | my former employee
+B: Kai | the former employer | my former employer
+STAKE: the commission that Rowan is claiming
+BG: Rowan sold equipment for a small distributor run by Kai, on a base salary plus commission. Rowan resigned in March. A large order from a customer Rowan had worked with for a year was signed in April. Rowan claims the $8,500 commission on that order. Kai has refused to pay it.
+A1: Rowan introduced the customer to the firm and ran all the product demonstrations.
+A2: Emails show that the customer agreed the price with Rowan in February.
+B1: A colleague handled the final contract terms and the delivery schedule after Rowan left.
+B2: The firm has paid that colleague a $2,000 bonus for closing the order.
+DA: The commission plan says commission is earned when the customer accepts a quote, and the customer accepted Rowan's written quote by email two weeks before Rowan resigned.
+DB: The commission plan, which Rowan signed, says commission is payable only on orders signed while the salesperson is employed by the firm.
+DM: The commission plan says commission is paid on orders the salesperson closes; it does not define closing or say what happens when someone leaves.
+
+== training | employment | 2400
+A: Emery | the former employer | my former employer
+B: Finley | the former employee | my former employee
+STAKE: the course fee that Emery wants repaid
+BG: Finley worked as a physiotherapy assistant at a clinic owned by Emery. The clinic paid $2,400 for Finley to take a certification course. Finley left the clinic four months after finishing the course. Emery is asking Finley to repay the $2,400. Finley has refused.
+A1: Emery gave Finley eight paid study days to complete the course.
+A2: Finley now uses the certification at a rival clinic nearby.
+B1: The clinic advertises its staff's certification to attract patients, and Finley treated patients under it for four months.
+B2: Nobody mentioned repayment when Finley gave notice or at the exit meeting.
+DA: Before the course, Finley signed a one-page agreement to repay the full fee if Finley left within twelve months of completing it.
+DB: There is no written agreement about the course fee, and Emery had told all staff by email that the clinic required every assistant to hold the certification by the end of the year.
+DM: Emery says Finley agreed verbally to stay for at least a year after the course; Finley remembers only a general conversation about being committed to the clinic.
+
+== car | ex-partners | 5000
+A: Dana | one of the former partners | my ex-partner
+B: Robin | the other former partner | my ex-partner
+STAKE: the half of the car's value that Dana is asking for
+BG: Dana and Robin lived together for four years and separated in the spring. During the relationship they bought a car for $18,000, which is now worth about $10,000. Robin has kept the car. Dana is asking Robin for $5,000, half of its current value. Robin has refused to pay anything.
+A1: Dana paid $6,000 of the deposit on the car from savings.
+A2: While they were together, the loan repayments came out of a joint account that both paid into.
+B1: Robin has paid all the insurance, servicing and repairs since they bought the car.
+B2: Robin used the car every day for work, and Dana rarely drove it.
+DA: The car is registered in both names, and when they bought it they signed a short note saying that they owned it equally.
+DB: The car is registered in Robin's name only, and since the separation Robin alone has paid off the remaining $7,000 of the loan.
+DM: The car is registered in Robin's name, but Dana has messages in which Robin calls it our car and talks about splitting everything fairly if they ever separated.
+
+== card | ex-partners | 3600
+A: Taylor | one of the former partners | my ex-partner
+B: Sage | the other former partner | my ex-partner
+STAKE: the half of the credit card balance that Taylor wants Sage to pay
+BG: Taylor and Sage were together for three years and shared a flat. When they separated, a credit card in Taylor's name carried a balance of $7,200. Taylor is asking Sage to pay half, $3,600. Sage has refused.
+A1: Much of the spending on the card was on furniture, groceries and a holiday they took together.
+A2: Taylor has been paying the interest alone since they separated.
+B1: The card is in Taylor's name only, and Sage never had a card on the account.
+B2: Sage paid most of the rent and utilities during the relationship.
+DA: After the separation Sage sent Taylor a message accepting that half of the card balance was Sage's responsibility and promising to pay it.
+DB: The card statements show that about $5,000 of the balance is Taylor's own spending on a motorbike and on a solo trip taken while they were on a break.
+DM: The statements do not make clear who most purchases were for, and each of them remembers the spending differently.
+
+== vet | ex-partners | 2100
+A: Noel | one of the former partners | my ex-partner
+B: Jules | the other former partner | my ex-partner
+STAKE: the half of the vet bill that Noel wants Jules to pay
+BG: Noel and Jules adopted a dog together two years ago and separated in January. The dog lives with Noel. In March the dog needed emergency surgery costing $4,200, which Noel paid. Noel is asking Jules for half, $2,100. Jules has refused.
+A1: Both names are on the adoption papers.
+A2: Jules still has the dog every other weekend.
+B1: Noel did not contact Jules before agreeing to the surgery.
+B2: After the separation Jules offered to take the dog full-time, and Noel said no.
+DA: After the separation they agreed in writing to split all vet costs equally for as long as they share the dog.
+DB: When they separated they agreed in writing that Noel would keep the dog and be responsible for all of its costs, and that the weekend visits were only so that Jules could still see the dog.
+DM: They have not discussed vet costs since separating; before that they usually split them, though not always evenly.
+
+== venue | ex-partners | 1800
+A: Ari | one of the former partners | my ex-fiance
+B: Blake | the other former partner | my ex-fiance
+STAKE: the half of the lost venue deposit that Ari wants Blake to pay
+BG: Ari and Blake were engaged and booked a wedding venue with a non-refundable deposit of $3,600, which Ari paid. They broke off the engagement four months before the date. Ari is asking Blake to pay half of the lost deposit, $1,800. Blake has refused.
+A1: They chose the venue together and both signed the booking form.
+A2: Ari also lost $500 on a clothing order for the wedding and is not asking for any of that.
+B1: Ari was the one who ended the engagement.
+B2: Blake paid about $1,200 for the engagement party, and Ari did not contribute to that.
+DA: When they booked the venue, Blake sent Ari a message promising to transfer half of the deposit the following month, and never did.
+DB: Ari's parents gave Ari the $3,600 specifically to pay the venue deposit, as a wedding gift, and have said they do not want it back.
+DM: They had talked loosely about splitting the wedding costs without ever agreeing who would pay for what.
+
+== orthodontics | ex-partners | 2600
+A: Kerry | one of the parents | my ex-partner
+B: Jude | the other parent | my ex-partner
+STAKE: the half of the orthodontic bill that Kerry wants Jude to pay
+BG: Kerry and Jude are separated and share the care of their twelve-year-old child. Kerry arranged orthodontic treatment for the child costing $5,200, paid for it, and is asking Jude for half, $2,600. Jude has refused.
+A1: The child's dentist recommended the treatment in writing.
+A2: Jude earns somewhat more than Kerry.
+B1: Kerry chose a private clinic; a clinic covered by Jude's dental plan would have done the same treatment for about $2,000 in total.
+B2: Jude already pays for all of the child's sports and music activities.
+DA: Their written separation agreement says that health and dental costs for the child are shared equally, and Kerry emailed Jude the treatment plan and price a month before it started and got a reply saying that was fine.
+DB: Their written separation agreement says that any non-emergency expense above $500 must be agreed by both parents in advance, and Jude replied to Kerry's email about the treatment by asking to use the clinic on Jude's dental plan instead.
+DM: Their separation agreement says only that they will share the child's costs fairly; Kerry mentioned braces in passing and Jude did not respond either way.
+
+== website | services | 4000
+A: Devon | the web developer | the web developer I hired
+B: Marley | the client | my client
+STAKE: the final invoice that Devon wants paid
+BG: Marley, who owns a bakery, hired Devon, a freelance web developer, to build an online ordering site for $10,000. Marley paid $6,000 in stages. Devon has invoiced the final $4,000 and Marley has refused to pay it.
+A1: The site has been live and taking orders for six weeks.
+A2: Marley asked for three additional features during the project, and Devon built them at no extra charge.
+B1: The site launched five weeks later than the date in the contract.
+B2: Some customers have complained to Marley that the checkout page freezes on phones.
+DA: Marley signed an acceptance form at launch confirming that the site met the specification, and the launch was late because Marley supplied the product photos four weeks late.
+DB: The contract makes the final payment conditional on passing a mobile checkout test, an independent tester hired by Marley found that the checkout fails on two common phones, and Devon has not fixed it after three requests.
+DM: The contract does not define what counts as finished; Devon says the checkout problem comes from the bakery's payment provider, and nobody has tested that.
+
+== photos | services | 1500
+A: Harper | the client | my client
+B: Lane | the photographer | the photographer I hired
+STAKE: the half of the photography fee that Harper wants refunded
+BG: Harper paid Lane, a wedding photographer, $3,000 to photograph a wedding. Harper is unhappy with the result and is asking for half of the fee, $1,500, back. Lane has refused any refund.
+A1: There are no photos of the first dance or of the speeches.
+A2: The edited photos arrived ten weeks after the wedding, although the contract promised six.
+B1: Lane delivered 480 edited photos, more than the 300 the contract promised.
+B2: Harper posted many of the photos online with a comment praising them.
+DA: The contract includes a list of must-have shots that names the first dance and the speeches, and Lane left the reception an hour before the contracted finish time.
+DB: The reception ran ninety minutes behind schedule, the first dance and the speeches took place after the contracted finish time, and on the night Harper declined Lane's offer to stay on for an overtime fee.
+DM: The contract promises coverage of key moments without listing them, and they disagree about whether Lane was told that the schedule had changed.
+
+== bathroom | services | 5500
+A: Blair | the contractor | the contractor I hired
+B: Shay | the homeowner | my client
+STAKE: the final payment that Blair wants
+BG: Shay hired Blair, a contractor, to renovate a bathroom for $16,500. Shay has paid $11,000 and is refusing to pay the final $5,500. Blair wants it paid.
+A1: The bathroom has been in daily use since the work finished two months ago.
+A2: Blair came back twice after finishing to fix small items that Shay pointed out.
+B1: Several wall tiles are visibly uneven.
+B2: The job took nine weeks rather than the five in the quote.
+DA: Shay signed a completion form saying the work was finished to a satisfactory standard, and the job ran late because Shay changed the tile choice twice after work began.
+DB: An independent building inspector found that the shower was not waterproofed to code and is leaking into the wall, and estimated $6,000 to put it right.
+DM: Another contractor quoted Shay $2,000 to redo the uneven tiles; Blair says the tiles are within normal tolerance and offered to adjust them for free, which Shay declined.
+
+== fence | neighbours | 1400
+A: Pat | one of the neighbours | my neighbour
+B: Chris | the other neighbour | my neighbour
+STAKE: the half of the fence cost that Pat wants Chris to pay
+BG: Pat and Chris are next-door neighbours. Pat replaced the wooden fence between their gardens at a cost of $2,800 and is asking Chris to pay half, $1,400. Chris has refused.
+A1: The old fence was leaning badly, and two panels had fallen into Chris's garden.
+A2: Pat got three quotes and chose the cheapest.
+B1: Pat chose a taller and more expensive style of fence than the old one.
+B2: Chris had said the old fence could be repaired for a few hundred dollars.
+DA: The property deeds show that the fence is a shared boundary structure, and when Pat sent the quote Chris replied telling Pat to go ahead and that they would split it.
+DB: The property deeds show that the fence belongs to Pat's property alone, and Chris told Pat in writing before the work started that Chris would not contribute.
+DM: The deeds are unclear about who owns the fence; Chris saw the quotes beforehand and neither agreed nor objected.
+
+== tree | neighbours | 1900
+A: Gray | the owner of the shed | my neighbour
+B: Ellis | the owner of the tree | my neighbour
+STAKE: the storm damage that Gray wants Ellis to pay for
+BG: Gray and Ellis are next-door neighbours. During a storm, a large branch from a tree in Ellis's garden fell onto Gray's garden shed. Repairing the shed and replacing damaged tools cost Gray $1,900. Gray is asking Ellis to pay. Ellis has refused.
+A1: The tree stands entirely on Ellis's property, and the branch overhung the shed by several metres.
+A2: Gray has receipts for the repair and for the replaced tools.
+B1: The storm brought the strongest winds recorded locally in ten years and damaged many healthy trees in the area.
+B2: Gray's home insurance would cover the damage, less a $500 excess, but Gray has not made a claim.
+DA: A year earlier a tree surgeon had told Ellis in writing that the branch was diseased and should be removed, and Gray had asked Ellis twice by email to deal with it.
+DB: A tree surgeon inspected the tree six months before the storm and reported in writing that it was healthy, and Gray had never raised any concern about it.
+DM: Gray says the branch had looked dead for at least a year and that Gray mentioned it once in passing; Ellis does not remember that, and no expert had looked at the tree.
+
+== loan | family | 10000
+A: Jesse | the older sibling | my older sibling
+B: Corey | the younger sibling | my younger sibling
+STAKE: the money that Jesse wants back
+BG: Three years ago Jesse transferred $10,000 to a younger sibling, Corey, to help with the deposit on a flat. Jesse is now asking for the money back. Corey says it was a gift and has refused.
+A1: Jesse was not well off at the time and took the money out of savings.
+A2: Corey has since bought a new car and taken two overseas holidays.
+B1: Years earlier their parents had given Jesse a similar amount toward Jesse's own first home, as a gift.
+B2: Jesse did not mention repayment for almost three years.
+DA: The bank transfer carries the reference loan for flat deposit, and Corey sent a message at the time promising to pay it back within two years.
+DB: At the time, Jesse signed a letter for Corey's mortgage lender stating that the $10,000 was a gift with no expectation of repayment.
+DM: Nothing was written down; Jesse remembers telling Corey to pay it back when possible, and Corey remembers Jesse saying not to worry about it.
+
+== estate | family | 3200
+A: Lou | one of the siblings | my sibling
+B: Remy | the other sibling | my sibling
+STAKE: the half of the upkeep costs that Lou wants Remy to reimburse
+BG: After their mother died, siblings Lou and Remy inherited her house in equal shares. It took a year to sell. During that year Lou paid $6,400 for property tax, insurance and repairs, and is asking Remy to reimburse half, $3,200, out of Remy's share of the sale. Remy has refused.
+A1: Lou has receipts for every payment.
+A2: The repairs were recommended by the estate agent to help the sale.
+B1: Lou lived in the house rent-free for eight months of that year.
+B2: Remy handled all the paperwork with the lawyer and the estate agent, without charging for the time.
+DA: Before Lou paid anything, Remy agreed by email that all upkeep costs would be split equally when the house sold, and Lou moved in because the insurer required the house to be occupied.
+DB: Remy had offered in writing to rent the house out to cover the costs, and Lou refused because Lou wanted to live there; similar houses nearby rent for about $1,500 a month.
+DM: They never discussed who would pay the costs, and they disagree about whether Lou living there helped or delayed the sale.
+
+== roommate | friends | 1700
+A: Charlie | the roommate who stayed | my former roommate
+B: Sidney | the roommate who left | my former roommate
+STAKE: the two months of rent that Charlie wants Sidney to pay
+BG: Charlie and Sidney shared a two-bedroom flat, both named on the lease, each paying $850 a month. Sidney moved out two months before the lease ended. Charlie paid the full rent for those two months and is asking Sidney for $1,700. Sidney has refused.
+A1: Both names are on the lease, and the landlord held them jointly responsible for the full rent.
+A2: Sidney gave only two weeks of notice.
+B1: Sidney left Charlie the names of three people who were interested in taking the room.
+B2: Charlie's partner stayed in the flat most nights during those two months.
+DA: Charlie interviewed all three people Sidney suggested, each of them pulled out, and Charlie then advertised the room without success.
+DB: Charlie turned down all three of the people Sidney suggested without meeting them, and Charlie's partner moved into Sidney's old room for both months.
+DM: One of the people Sidney suggested was willing to move in after a month, and Charlie decided it was not worth it for a single month.
+
+== cottage | friends | 1300
+A: Nico | the friend who booked | my friend
+B: Ash | the friend who pulled out | my friend
+STAKE: the half of the cottage cost that Nico wants Ash to pay
+BG: Friends Nico and Ash planned a week away together. Nico booked a holiday cottage for $2,600 on a non-refundable basis. Three weeks before the trip, Ash pulled out. Nico went alone and is asking Ash for half of the cost, $1,300. Ash has refused.
+A1: Ash had agreed to the dates and to that cottage before Nico booked.
+A2: Nico tried to find someone else to take Ash's place and could not.
+B1: Ash pulled out because of a new job that started that week.
+B2: Nico still had the full use of the cottage for the week.
+DA: Before the booking, Ash had sent Nico a message telling Nico to go ahead and book, and promising to pay half on payday.
+DB: Before the booking, Ash had told Nico that a new job might clash with the dates and asked Nico to pick the refundable rate, which cost only $150 more.
+DM: Ash had said the dates looked fine but had not seen the price or the cancellation terms before Nico booked.
+
+== coffeecart | friends | 4800
+A: Indy | one of the former business partners | my former business partner
+B: Wren | the other former business partner | my former business partner
+STAKE: the half of the sale proceeds that Indy is asking for
+BG: Indy and Wren ran a weekend coffee cart together for two years and closed it in the autumn. Wren sold the cart and equipment for $9,600 and has kept the money. Indy is asking for half, $4,800. Wren has refused to pay anything.
+A1: They split the profits equally for the two years the cart ran.
+A2: Indy worked every weekend the cart was open.
+B1: Wren paid the $8,000 purchase price of the cart and equipment.
+B2: Wren handled all the bookkeeping, permits and supplier orders.
+DA: At the start they signed a one-page partnership agreement saying that all business assets were owned equally, and Indy repaid Wren $4,000 toward the cart during the first year.
+DB: At the start they signed a one-page agreement saying that the cart and equipment remained Wren's property and that Indy was entitled only to half of the profits.
+DM: Nothing was written down; Indy says the equal profit split meant they were equal partners in everything, and Wren says the cart was always Wren's.
+
+== usedcar | private-sale | 2200
+A: Tate | the buyer | the person who bought my car
+B: Lior | the seller | the person who sold me the car
+STAKE: the gearbox repair cost that Tate wants Lior to pay
+BG: Tate bought a used car privately from Lior for $6,000. Three weeks later the gearbox failed, and the repair cost $2,200. Tate is asking Lior to pay for the repair. Lior has refused.
+A1: The advert described the car as being in excellent mechanical condition.
+A2: The mechanic who did the repair said the gearbox had been failing for some time.
+B1: Tate test-drove the car twice and brought along a friend who knows cars.
+B2: The price was about $800 below the usual market price for that model.
+DA: Two months before the sale, Lior's own garage had given Lior a written quote for gearbox work, and when Tate asked by message whether the car had any known faults, Lior answered that it had none.
+DB: The handwritten receipt, signed by both of them, says sold as seen with no warranty, and Lior had handed over the full service history, which mentions a gearbox noise noted at the last service.
+DM: The receipt says nothing about the car's condition, and Lior says the car drove fine and there was no reason to suspect the gearbox.

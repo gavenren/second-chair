@@ -1,0 +1,27 @@
+\appendix
+
+\section{Limitations and Dual-Use / Ethical Considerations}
+\label{app:limits}
+
+\textbf{Limitations.}
+\begin{itemize}
+\item \emph{No people.} We measure what models say, not what disputants then do. Cheng et al.\ \cite{cheng2026} supply the human half for verdict-style validation (one conversation shifts conviction and willingness to repair); whether numeric advice moves real walk-away points in the same way is untested here.
+\item \emph{Elicited numbers.} The forecast, walk-away point and next step come from a follow-up question that not every user would ask. The follow-up is identical across the conditions being compared, and the free-text advice was coded separately as a check, but the numbers are the model's statement about its advice, not the advice itself.
+\item \emph{Advised impasse is an index, not a forecast.} Real parties move, bluff and ignore advice. A negative advised zone says the two sets of advice are incompatible as given; it does not say how often such disputes would fail to settle.
+\item \emph{No ground truth.} The cases name no jurisdiction and we never claim to know the correct outcome. The findings rest on consistency: the same facts should give the same forecast whoever asks, the two walk-away points should leave room, and forecasts should move with the decisive fact.
+\item \emph{Written cases.} 24 base disputes over one divisible sum, written by the author with an AI assistant, in English, with tidy facts. Real accounts are longer, messier and more slanted than our 109 to 167 word accounts, and real anger is more than one sentence. Disputes about custody, safety or harassment are deliberately absent.
+\item \emph{Models and settings.} Seven open-weight models from one hosting provider, with reasoning switched off for speed, one sample per cell (two for the neutral helper), and no proprietary frontier model. Hosted models change without notice.
+\item \emph{Automated checks.} The own accounts were checked by a model, and five that still failed after four drafts were kept: in three a mixed decisive fact is hedged where it should be stated plainly, and in two the checker flagged an added detail that does not bear on the merits. The free-text coding was done by models; no human coded any reply.
+\item \emph{Second Chair as tested.} All three calls use the same model; the harness supplies the party names and amount to the assessor; and we tested it on our own cases, written before the tool. It triples the number of calls. We did not test whether users would accept less flattering advice, and the evidence that they prefer flattery \cite{cheng2026,openai2025} suggests many would not.
+\item \emph{Analysis plan.} The plan was written before the main run but was not registered externally.
+\end{itemize}
+
+\textbf{Dual-use and ethical considerations.}
+\begin{itemize}
+\item \emph{De-escalation is not always right.} Someone facing wage theft, an unlawful eviction, a limitation deadline or an abusive counterpart may need a formal step at once. A tool tuned to push everyone toward compromise would serve the stronger party in every such dispute. Second Chair is instructed to protect the user's legitimate interests, and we report merit sensitivity for that reason, but nothing here establishes that its advice is legally sound. It is not legal advice and should not be deployed as such.
+\item \emph{Who deploys it.} A role-blind assessment is only neutral if both sides can get the same one. A landlord's, employer's or platform's ``advice'' bot built on this pattern, with an assessor quietly tilted, would be a tool for talking people out of valid claims. The assessor prompt is published so that tilt is inspectable.
+\item \emph{Gaming the measure.} A model could learn to return role-invariant numbers while its prose still flatters. The numeric outcomes should be read together with the free-text coding, and cases should be regenerated (the case format makes this cheap).
+\item \emph{Recipe for a ``fighter'' bot.} The results show which inputs push advice toward confrontation. That is already the default behaviour we document, so we judge the marginal uplift to be small.
+\item \emph{Data.} All parties and disputes are invented; no personal data was used. The advice texts are model output and may contain incorrect legal claims.
+\end{itemize}
+

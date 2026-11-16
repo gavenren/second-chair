@@ -1,0 +1,33 @@
+\begin{abstract}
+\noindent When someone asks a chatbot what to do in a dispute with a landlord, employer or former partner, the other party can ask the same chatbot. We test what the two sets of advice add up to. In 72 money disputes, each party separately asks seven open-weight models what to do; we record the forecast outcome, the settlement the model says to refuse, and the recommended next step. On agreed facts the forecast does not depend on who asks (gap <<ci:base.N.rg>> points). With each party's own account the forecasts are <<e0:base.P.rg>> points apart, and <<e0:op.rg>> points remain when a neutral helper submits the same accounts: the models take a one-sided story close to face value. The advice then leaves no room to settle: the most the paying side is told to give is below the least the other side is told to accept in <<e0:base.P.impasse>>\% of cases (<<e0:obs.impasse>>\% for a neutral helper), and in <<e0:base.PA.impasse>>\% after one angry sentence, which also raises the share of cases where both sides are sent to a firm demand or formal action from <<e0:base.P.mutual>>\% to <<e0:base.PA.mutual>>\%. Second Chair, a wrapper in which a fresh call assesses a neutral case note while allowing for the side not heard, cuts advised impasse to <<e0:G:g2.PA.impasse>>\% and mutual escalation to <<e0:G:g2.PA.mutual>>\%, <<x:ABSTRACT_MERIT>> <<x:ABSTRACT_G1>> Cases, prompts, code and <<x:n_trials_all>> conversations are released.
+\end{abstract}
+
+\section{Introduction}
+Sycophancy research asks whether a chatbot tells a user what the user wants to hear. In a dispute there are two users, and the question that matters is what happens when each of them asks. Table~\ref{tab:example} shows one of our cases. Two former partners share a dog; one paid a \$4,200 vet bill and wants half back; whether they ever agreed to split such costs is unclear. Each describes the dispute to the same model in their own words and adds that they are furious. The model tells Noel to expect all \$2,100 and to accept no less than \$1,500. It tells Jules to expect to pay nothing and to offer nothing. It tells both that their anger is understandable and both to send a firm written demand. Neither conversation looks alarming on its own. Together they guarantee a fight.
+
+\begin{table}[h]
+\centering\small
+\begin{tabularx}{\textwidth}{@{}l X X@{}}
+\toprule
+ & Noel asks (paid the bill, wants \$2,100) & Jules asks (refuses to pay) \\
+\midrule
+Opening of the reply & ``First, Noel, take a deep breath. \ldots Your anger is entirely justified.'' & ``I completely understand why you are furious.'' \\
+Forecast: Noel gets & \$2,100 of \$2,100 & \$0 of \$2,100 \\
+Walk-away point & accept no less than \$1,500 & pay no more than \$0 \\
+How far Noel is in the right & 85 of 100 & 0 of 100 \\
+Recommended next step & firm written demand with a deadline & firm written final position with a deadline \\
+\bottomrule
+\end{tabularx}
+\caption{One case (\texttt{vet-M}: mixed evidence), one model (GLM 5.2), two conversations. Each party gave its own account and one angry sentence.}
+\label{tab:example}
+\end{table}
+
+This is the mechanism that Babcock and Loewenstein \cite{babcock1997} identified as a cause of bargaining impasse between people: each side forms a self-serving expectation of what a judge would do, the expectations do not overlap, and no settlement looks acceptable to both. The sprint brief asks what a chatbot says to someone mid-dispute and how often it escalates. We turn that into a paired measurement. For 72 disputes and seven models we collect <<x:n_trials_base>> conversations in which each party, or a neutral helper, asks what to do, and we record three things a person would act on: the outcome to expect, the offer to refuse, and the next step. We find:
+\begin{enumerate}
+\item \textbf{The models are not partisan forecasters.} When both parties quote the same agreed facts, the forecast is the same whoever asks (Section~\ref{sec:agreed}).
+\item \textbf{They believe whoever is talking.} With own accounts the forecasts are <<e0:base.P.rg>> points apart, <<x:ratio:base.P.rg>>\% as far as swapping the decisive evidence moves them, and a neutral helper submitting the same accounts already gets <<e0:op.rg>> (Section~\ref{sec:own}).
+\item \textbf{The advice adds up to impasse.} The two advised walk-away points fail to overlap in <<e0:base.P.impasse>>\% of cases, against <<e0:obs.impasse>>\% for a neutral helper with the agreed facts (Section~\ref{sec:own}).
+\item \textbf{One angry sentence escalates.} With no fact changed, it adds <<e0:base.anger.adv>> points to the share of conversations that recommend a firm demand or formal action (Section~\ref{sec:steps}).
+\item \textbf{A second opinion that allows for the unheard side removes most of the incompatibility, at a cost.} <<x:INTRO_G2>> (Section~\ref{sec:guard}).
+\end{enumerate}
+We do not claim to know the right outcome of any case. Every finding rests on consistency (the same facts should give the same answer; the two pieces of advice should be compatible) and on a control that exposes the trivial fix of always saying ``split it''.

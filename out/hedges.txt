@@ -1,0 +1,1 @@
+{"replies": 2015, "with_hedge": 121, "percent": 6.0}

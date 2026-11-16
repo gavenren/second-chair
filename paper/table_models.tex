@@ -1,0 +1,18 @@
+\setlength{\tabcolsep}{3.6pt}
+\begin{tabular}{@{}l rr rrrr rr rrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Agreed facts} & \multicolumn{4}{c}{Advised impasse (\%)} & \multicolumn{2}{c}{Own-account gap} & \multicolumn{4}{c}{Steps 4--6 (\%)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-7}\cmidrule(lr){8-9}\cmidrule(l){10-13}
+Model & \shortstack[r]{Role\\gap} & \shortstack[r]{Right\\gap} & Helper & \shortstack[r]{Agreed\\facts} & \shortstack[r]{Own\\acct.} & \shortstack[r]{+ angry} & Helper & Party & \shortstack[r]{Own\\acct.} & \shortstack[r]{+ angry} & Anger & \shortstack[r]{Both\\sides} \\
+\midrule
+Gemma 4 31B & 0.8 & 5.3 & 1 & 12 & 67 & 82 & 24 & 32 & 59 & 76 & 16 & 57 \\
+Gemma 4 26B & 8.8 & 13.3 & 3 & 32 & 81 & 96 & 25 & 34 & 67 & 83 & 17 & 71 \\
+DeepSeek V4 Flash & $-$5.2 & 6.0 & 14 & 17 & 58 & 60 & 22 & 22 & 47 & 59 & 12 & 32 \\
+GLM 5.3 Flash & $-$10.7 & $-$2.0 & 6 & 8 & 57 & 62 & 8 & 16 & 40 & 44 & 5 & 17 \\
+GLM 5.2 & 2.9 & 11.9 & 6 & 12 & 47 & 57 & 17 & 28 & 68 & 80 & 12 & 61 \\
+Qwen 3.8 27B & 2.6 & 11.1 & 10 & 29 & 74 & 78 & 30 & 37 & 70 & 80 & 10 & 65 \\
+Qwen 3.5 397B & 5.0 & 12.6 & 8 & 39 & 79 & 82 & 28 & 36 & 75 & 85 & 10 & 72 \\
+\midrule
+\textbf{Pooled} & \textbf{0.6} & \textbf{8.3} & \textbf{7} & \textbf{21} & \textbf{66} & \textbf{74} & \textbf{22} & \textbf{29} & \textbf{61} & \textbf{72} & \textbf{12} & \textbf{54} \\
+\bottomrule
+\end{tabular}

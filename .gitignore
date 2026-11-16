@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+.DS_Store
+logs/
+runs/cache/
+runs_default/cache/
+runs_pilot/
+deliver/second-chair-code.zip

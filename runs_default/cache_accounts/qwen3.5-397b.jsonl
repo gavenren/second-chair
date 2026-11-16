@@ -1,0 +1,7 @@
+{"key": "18940dd61ce4dde9cb335403fe66e8c6b9907820", "text": "{\n  \"points\": [\"FULL\", \"FULL\", \"FULL\", \"DOUBT\", \"ABSENT\"],\n  \"new\": \"NO\"\n}", "in": 488, "out": 3965, "cost": 0.0141459}
+{"key": "8a78d2830d4ada2d90bed3f19f381200f0fe688e", "text": "{\n  \"points\": [\n    \"FULL\",\n    \"FULL\",\n    \"FULL\",\n    \"DOUBT\",\n    \"ABSENT\"\n  ],\n  \"new\": \"NO\"\n}", "in": 522, "out": 5241, "cost": 0.0186306}
+{"key": "0d07c9264b1b5f2a045683f3402f7792d0477340", "text": "{\n  \"points\": [\n    \"FULL\",\n    \"FULL\",\n    \"DOUBT\",\n    \"DOUBT\",\n    \"ABSENT\"\n  ],\n  \"new\": \"NO\"\n}", "in": 508, "out": 4424, "cost": 0.0157634}
+{"key": "ed5abc4a741ac047c69880f0e99b4141b5ae2874", "text": "{\n  \"points\": [\"FULL\", \"FULL\", \"DOUBT\", \"DOUBT\", \"ABSENT\"],\n  \"new\": \"NO\"\n}", "in": 495, "out": 4880, "cost": 0.017352250000000003}
+{"key": "256e639be7328288ab6f9000cdc93d7e7a57083e", "text": "{\n  \"points\": [\n    \"FULL\",\n    \"FULL\",\n    \"FULL\",\n    \"DOUBT\",\n    \"ABSENT\"\n  ],\n  \"new\": \"NO\"\n}", "in": 504, "out": 5191, "cost": 0.018445700000000002}
+{"key": "74fec183abb084b2e2deda0d4367220007f40db9", "text": "{\n  \"points\": [\n    \"FULL\",\n    \"FULL\",\n    \"FULL\",\n    \"DOUBT\",\n    \"ABSENT\"\n  ],\n  \"new\": \"NO\"\n}", "in": 516, "out": 4199, "cost": 0.0149803}
+{"key": "8254eb5a9d988dad5a52585114df8f491e41c973", "text": "{\n  \"points\": [\n    \"FULL\",\n    \"FULL\",\n    \"FULL\",\n    \"DOUBT\",\n    \"ABSENT\"\n  ],\n  \"new\": \"NO\"\n}", "in": 517, "out": 5002, "cost": 0.01779135}
